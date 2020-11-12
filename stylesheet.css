@@ -12,7 +12,7 @@ header {
 }
 
 body {
-  background-color: #BBBBBB;
+  background-color: #EEEEEE;
 }
 
 .header {
@@ -23,7 +23,7 @@ body {
   justify-content: center;
   z-index: 10;
   height: 80px;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(34, 49, 52, 0.8);
 }
 .menu {
   margin-top: 25px;
@@ -63,7 +63,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding-top: 20px;
-  background-color: #BBBBBB;
   text-align: center;
   width: 100%;
 }
@@ -100,13 +99,14 @@ ul {
 }
 
 
+.footer{
+  background-color: #999999
+}
+
+
 .btn {
   padding-left: 5px;
   padding-right: 5px;
-}
-
-.footer{
-  background-color: #999999;
 }
 
 .flex_web {
@@ -116,6 +116,10 @@ ul {
 .twitter {
   text-align: center;
   margin: 0 auto;
+}
+
+.twitter-timeline {
+  padding-top: 5px;
 }
 
 .link a{
@@ -150,6 +154,11 @@ ul {
   padding-top: 40px;
 }
 
+.ytb_prebu{
+  padding-top: 5px;
+}
+
+
 .app {
   display:flex;
   text-align: center;
@@ -175,4 +184,8 @@ ul {
   opacity: 0.8;
   border-radius: 4px;
   text-align: center;
+}
+
+.app_info1 {
+  color: rgba(0, 0, 0, 0.5);
 }
