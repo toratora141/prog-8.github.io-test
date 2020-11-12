@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+header {
+  height: 500px;
+  background-image: url(cps_back2.jpg);
+  background-size: cover;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 10;
+  height: 80px;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+.menu {
+  margin-top: 25px;
+}
+
+.btn :hover{
+  opacity: 0.8;
+}
+
+.header a {
+  cursor: pointer;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-size: 25px;
+  color: rgba(255,255,255,1);
+}
+
+.title {
+  position: absolute;
+  margin-top: 150px;
+  font-size: 50px;
+  background-color: #333333;
+  color: white;
+}
+
+.logo {
+  height: 80px;
+  width: 16%;
+}
+
+.container {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  background-color: #EEEEEE;
+  text-align: center;
+  width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    align-items: center;
+}
+
+.flex_dfo {
+  display:flex;
+}
+
+.mainicon {
+  position: relative;
+  margin-top: 50px;
+}
+
+.mainicon p {
+  position: absolute;
+  font-size: 25px;
+  top: 30%;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.message li{
+  width: 100%
+}
+
+
+.btn {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.flex_web {
+  display: flex;
+}
+
+.twitter {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.link a{
+  background-color: #55acee;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+
+.youtube {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.youtube a {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.youtube p {
+  padding-top: 40px;
+}
+
+.app {
+  display:flex;
+  text-align: center;
+}
+
+.app li {
+  padding-top: 20px;
+}
+
+.cps_icon {
+  margin-top: 30px;
+  margin-left: 50px;
+  border-radius: 70px;
+}
+
+.flex_dfo a {
+  margin-top: 100px;
+  height: 40px;
+  width: 300px;
+  font-size: 20px;
+  background-color: #2C7CFF;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
