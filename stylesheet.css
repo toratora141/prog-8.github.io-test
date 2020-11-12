@@ -12,7 +12,7 @@ header {
 }
 
 body {
-  background-color: #EEEEEE;
+  background-color: #BBBBBB;
 }
 
 .header {
@@ -63,7 +63,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding-top: 20px;
-  background-color: #EEEEEE;
+  background-color: #BBBBBB;
   text-align: center;
   width: 100%;
 }
@@ -103,6 +103,10 @@ ul {
 .btn {
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.footer{
+  background-color: #999999;
 }
 
 .flex_web {
